@@ -1,0 +1,20 @@
+1) After unzip place all files in one folder.
+
+2) Place a folder in your xampp or wampp server's htdocs or www 
+folder to open it in server.
+
+3) Open a folder in your localhost and if asked click on index.php
+file.
+
+4) In some file there is a use of inbuilt function know as "header"
+to redirect the page to index.php after submitting. Its location is 
+set according to my folders, modify it according to you.
+
+Steps to change path in header:
+--open your index.php file in your browser through your server.
+--copy the link from the top and past it inside  header like this:
+
+header("Location: paste_your_link_here");
+
+
+
